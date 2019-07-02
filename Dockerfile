@@ -46,7 +46,7 @@ RUN apt-get update -y && \
     libxrender-dev
 
 # Install object detection api dependencies
-RUN pip install pandas Werkzeug Flask numpy gevent pillow Cython contextlib2 tensorflow=1.12.0 jupyter matplotlib opencv-python
+RUN pip install pandas Werkzeug Flask numpy gevent pillow Cython contextlib2 tensorflow==1.12.0 jupyter matplotlib opencv-python
 
 # Copy the files into the container
 COPY . /usr/src/app
