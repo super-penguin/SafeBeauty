@@ -36,17 +36,13 @@ RUN apt-get update -y && \
 	libtool \
 	libudns-dev \
 	procps \
-	python3 \
-	python3-dev \
-	python3-bson \
-	python3-yaml \
 	ttf-liberation \
     libsm6 \
     libxext6 \
     libxrender-dev
 
 # Install object detection api dependencies
-RUN pip install pandas Werkzeug Flask numpy gevent pillow Cython contextlib2 tensorflow==1.12.0 jupyter matplotlib opencv-python
+RUN pip install pandas Werkzeug Flask numpy gevent pillow Cython contextlib2 tensorflow jupyter matplotlib opencv-python
 
 # Copy the files into the container
 COPY . /usr/src/app
