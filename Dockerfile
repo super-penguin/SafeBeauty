@@ -22,7 +22,6 @@ RUN apt-get update -y && \
 	ca-certificates \
 	check \
 	cmake \
-	cython3 \
 	git \
         libcap2-bin \
 	libcurl4-openssl-dev \
@@ -47,7 +46,7 @@ RUN apt-get update -y && \
     libxrender-dev
 
 # Install object detection api dependencies
-RUN pip install pandas Werkzeug Flask numpy Keras gevent pillow h5py Cython contextlib2 tensorflow jupyter matplotlib opencv-python
+RUN pip install pandas Werkzeug Flask numpy gevent pillow Cython contextlib2 tensorflow=1.12.0 jupyter matplotlib opencv-python
 
 # Copy the files into the container
 COPY . /usr/src/app
