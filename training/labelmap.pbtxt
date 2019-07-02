@@ -1,0 +1,35 @@
+item {
+  id: 1
+  name: 'GLAMGLOW_SUPERMUD'
+}
+
+item {
+  id: 2
+  name: 'ORDINARY_AHA'
+}
+
+item {
+  id: 3
+  name: 'DRUNKELEPHANT_TLC_mask'
+}
+
+item {
+  id: 4
+  name: 'DRUNKELEPHANT_TLC_serum'
+}
+
+item {
+  id: 5
+  name: 'SUNDAY_RILEY_U.F.O'
+}
+
+
+item {
+  id: 6
+  name: 'LUNA_night_oil'
+}
+
+item {
+  id: 7
+  name: 'Estee_Lauder_night'
+}
