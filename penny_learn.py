@@ -48,7 +48,7 @@ PATH_TO_LABELS = os.path.join(CWD_PATH,'training','labelmap.pbtxt')
 # PATH_TO_IMAGE = os.path.join(CWD_PATH,IMAGE_NAME)
 
 # Number of classes the object detector can identify
-NUM_CLASSES = 7
+NUM_CLASSES = 36
 
 # Load the label map.
 
@@ -104,12 +104,12 @@ def object_detection(path, sess):
         category_index,
         use_normalized_coordinates=True,
         line_thickness=8,
-        min_score_thresh=0.80)
+        min_score_thresh=0.50)
 
     cv2.imwrite('static/results.jpg', image)
 
     NAME = []
-    threshold = 0.8
+    threshold = 0.5
     for index, value in enumerate(classes[0]):
         if scores[0, index] > threshold:
             NAME.append((category_index.get(value)).get('name'))

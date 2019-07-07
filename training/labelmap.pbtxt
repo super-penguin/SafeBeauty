@@ -33,3 +33,148 @@ item {
   id: 7
   name: 'Estee_Lauder_night'
 }
+
+item {
+  id: 8
+  name: 'FARMGLOW_HoneyMoon_Glow'
+}
+
+item {
+  id: 9
+  name: 'DRUNKELEPHANT_A_Passioni'
+}
+
+item {
+  id: 10
+  name: 'KATE_Exfolikate'
+}
+
+item {
+  id: 11
+  name: 'KATE_Nightcream'
+}
+
+item {
+  id: 12
+  name: 'PTR_retinol_fusionPM'
+}
+
+item {
+  id: 13
+  name: 'ORIGIN_GinZing_Moisturizer'
+}
+
+item {
+  id: 14
+  name: 'ORIGIN_GinZing_Moisturizer_old'
+}
+
+item {
+  id: 15
+  name: 'KIEHL_super_fluid'
+}
+
+item {
+  id: 16
+  name: 'CLARINS_UV_plus'
+}
+
+item {
+  id: 17
+  name: 'CLINIQUE_overnight_booster'
+}
+
+item {
+  id: 18
+  name: 'CLINIQUE_superdefense_SPF'
+}
+
+item {
+  id: 19
+  name: 'ORDINARY_Granactive_Emulsion'
+}
+
+item {
+  id: 20
+  name: 'ORDINARY_Salicylic_Acid'
+}
+
+item {
+  id: 21
+  name: 'DERMALOGICA_Exfoliator'
+}
+
+item {
+  id: 22
+  name: 'DrDennis_Gross_Moisturizer'
+}
+
+item {
+  id: 23
+  name: 'DrDennis_Gross_Brighten'
+}
+
+item {
+  id: 24
+  name: 'DrDennis_Gross_Serum'
+}
+
+item {
+  id: 25
+  name: 'FAB_eye_cream'
+}
+
+item {
+  id: 26
+  name: 'FAB_serum'
+}
+
+item {
+  id: 27
+  name: 'MURAD_Retinol_eye_serum'
+}
+
+item {
+  id: 28
+  name: 'MURAD_Retinol_renewal_serum'
+}
+
+item {
+  id: 29
+  name: 'MURAD_Retinol_night_cream'
+}
+
+item {
+  id: 30
+  name: 'MURAD_Post_acne_blue'
+}
+
+item {
+  id: 31
+  name: 'MURAD_Post_acne_clear'
+}
+
+item {
+  id: 32
+  name: 'MURAD_Age_spot_orange'
+}
+
+item {
+  id: 33
+  name: 'MURAD_Age_spot_clear'
+}
+
+item {
+  id: 34
+  name: 'PTR_SPF30'
+}
+
+item {
+  id: 35
+  name: 'PTR_retinol'
+}
+
+item {
+  id: 36
+  name: 'pixi_retinol'
+}
